@@ -189,7 +189,7 @@ completeButton6.addEventListener("click", function (event) {
 
 function numberFromString(id)
 {
-    const value =    document.getElementById(id).innerText;
+    const value = document.getElementById(id).innerText;
     const convertedValue = parseInt(value);
     return convertedValue;
 }
